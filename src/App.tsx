@@ -51,7 +51,7 @@ export default function App() {
               <div className="inline-block border border-white/30 px-4 py-1.5 text-[10px] uppercase tracking-[0.5em] opacity-60">
                 Lokalna Tradycja • Jaworze
               </div>
-              <h1 className="font-display text-7xl md:text-9xl lg:text-[11rem] leading-[0.8] uppercase tracking-tighter">
+              <h1 className="font-display text-5xl sm:text-7xl md:text-9xl lg:text-[11rem] leading-[0.8] uppercase tracking-tighter">
                 Smażalnia<br />Jaworze
               </h1>
               <p className="font-serif text-2xl md:text-3xl opacity-80 max-w-2xl italic leading-relaxed pt-4">
@@ -122,8 +122,8 @@ export default function App() {
                 <span className="uppercase text-[11px] tracking-[0.6em] opacity-40 font-black flex items-center gap-4">
                   <div className="h-px w-8 bg-black opacity-20" /> Tradycja spod Jaworza
                 </span>
-                <h2 className="font-display text-6xl md:text-8xl italic leading-[0.95] tracking-tight">
-                  Smak, który<br /><span className="text-9xl md:text-[11rem] not-italic uppercase tracking-tighter">Pamiętasz</span>
+                <h2 className="font-display text-5xl sm:text-6xl md:text-8xl italic leading-[0.95] tracking-tight">
+                  Smak, który<br /><span className="text-7xl sm:text-9xl md:text-[11rem] not-italic uppercase tracking-tighter">Pamiętasz</span>
                 </h2>
               </div>
               <div className="space-y-10 font-serif text-2xl text-gray-800 leading-relaxed text-justify-edge opacity-90">
@@ -172,7 +172,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-32 gap-12">
             <div className="space-y-6">
                <span className="uppercase text-[12px] tracking-[0.6em] opacity-40 font-bold">Karta dań</span>
-               <h2 className="font-display text-7xl md:text-9xl uppercase tracking-tighter leading-none">Nasze<br />Specjały</h2>
+               <h2 className="font-display text-6xl sm:text-7xl md:text-9xl uppercase tracking-tighter leading-none">Nasze<br />Specjały</h2>
             </div>
             <p className="font-serif text-2xl italic opacity-60 md:text-right max-w-sm">
               "Każda porcja to kawałek naszej pasji, podawany prosto z serca Jaworza."
@@ -222,7 +222,7 @@ export default function App() {
             <div className="lg:col-span-7 space-y-16">
               <div className="space-y-8">
                 <span className="uppercase text-[12px] tracking-[0.7em] opacity-40 font-black">Jaworze w słoiku</span>
-                <h2 className="font-display text-7xl md:text-9xl leading-[0.8] tracking-tighter">SMAK NA<br /><span className="italic font-serif normal-case opacity-70">później</span></h2>
+                <h2 className="font-display text-6xl sm:text-7xl md:text-9xl leading-[0.8] tracking-tighter">SMAK NA<br /><span className="italic font-serif normal-case opacity-70">później</span></h2>
               </div>
               <p className="font-serif text-3xl opacity-90 leading-relaxed italic border-l-2 border-white/20 pl-12">
                 "Pstrągi i dorsze w słoikach w zalewie słodko-kwaśnej to nasza autorska produkcja, którą możesz zabrać ze sobą do domu."
@@ -306,7 +306,7 @@ export default function App() {
               <div id="hours" className="lg:col-span-5 space-y-20">
                  <div className="space-y-6">
                     <span className="uppercase text-[12px] tracking-[0.7em] opacity-40 font-black">Plan Dnia</span>
-                    <h2 className="font-display text-7xl md:text-[8rem] uppercase tracking-tighter leading-[0.8]">Godziny<br />Otwarcia</h2>
+                    <h2 className="font-display text-6xl sm:text-7xl md:text-[8rem] uppercase tracking-tighter leading-[0.8]">Godziny<br />Otwarcia</h2>
                  </div>
                  
                  <div className="space-y-8 text-3xl font-serif">
