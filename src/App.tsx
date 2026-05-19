@@ -259,7 +259,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* Gallery Balanced Masonry */}
+        {/* Gallery Balanced Layout */}
         <section id="gallery" className="max-w-7xl mx-auto py-40 px-8">
           <div className="mb-24 text-center">
              <span className="uppercase text-[10px] tracking-[0.8em] opacity-40 font-black block mb-4">Wizualna Podróż</span>
@@ -267,7 +267,7 @@ export default function App() {
              <div className="h-px w-24 bg-black mx-auto mt-8 opacity-20" />
           </div>
           
-          <div className="columns-1 md:columns-2 gap-12 space-y-12">
+          <div className="columns-1 md:columns-2 gap-16 space-y-16">
              {images.map((src, i) => (
                <motion.div 
                 key={i}
@@ -277,15 +277,21 @@ export default function App() {
                 transition={{ duration: 0.8, delay: i * 0.1 }}
                 className="break-inside-avoid"
                >
-                 <div className="vintage-border inline-block w-full overflow-hidden rounded-sm relative group cursor-pointer shadow-xl hover:shadow-2xl transition-all">
-                   <img 
-                     src={src} 
-                     alt={`Galeria ${i + 1}`} 
-                     className="w-full h-auto filter brightness-95 group-hover:brightness-100 group-hover:scale-105 transition-all duration-[1.5s] ease-out" 
-                   />
-                   <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
-                   <div className="absolute bottom-0 left-0 right-0 p-8 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 bg-gradient-to-t from-black/80 to-transparent">
-                      <span className="text-[10px] uppercase font-black tracking-[0.4em] text-white">Smażalnia Jaworze • Specjał {i + 1}</span>
+                 <div className="bg-white p-6 vintage-border shadow-2xl hover:shadow-3xl transition-all duration-500 group cursor-pointer relative">
+                   <div className="overflow-hidden relative">
+                     <img 
+                       src={src} 
+                       alt={`Galeria ${i + 1}`} 
+                       className="w-full h-auto filter brightness-95 group-hover:brightness-100 group-hover:scale-105 transition-all duration-[1.5s] ease-out" 
+                     />
+                     <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
+                   </div>
+                   <div className="mt-8 flex justify-between items-center border-t border-black/5 pt-6">
+                      <div className="flex flex-col">
+                        <span className="text-[9px] uppercase font-black tracking-[0.4em] opacity-30">Jaworze</span>
+                        <span className="font-display text-lg italic opacity-70">Specjał Domowy №{i + 1}</span>
+                      </div>
+                      <div className="h-0.5 w-8 bg-black/10" />
                    </div>
                  </div>
                </motion.div>
