@@ -1,0 +1,6 @@
+{
+  "name": "Smażalnia Jaworze",
+  "description": "Świeże i pyszne ryby, ciepła zupa rybna oraz gotowe potrawy w 100% z ryb. Pstrągi oraz dorsze w słoikach w zalewie słodko-kwaśnej.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
